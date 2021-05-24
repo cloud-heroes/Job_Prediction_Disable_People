@@ -1,10 +1,10 @@
 import pyrebase
 
 config = {
-    "apiKey": "AIzaSyB58n0TuO3J18hwhUDWnRaHzA9hcNXBisc",
-    "authDomain": "authdemo-af5f1.firebaseapp.com",
-    "databaseURL": "https://databaseName.firebaseio.com",
-    "storageBucket": "authdemo-af5f1.appspot.com"
+       "apiKey": "AIzaSyB3htC9IrXYXueaGAGHSZ_uKS76WauFHqY",
+    "authDomain": "job-pred.firebaseapp.com",
+    "databaseURL": "https://job-pred-default-rtdb.firebaseio.com",
+    "storageBucket": "job-pred.appspot.com"
 }
 
 firebase = pyrebase.initialize_app(config)
